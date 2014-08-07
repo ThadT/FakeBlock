@@ -1,0 +1,1 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Files><file>\FakeBlock.WindowsPhone.exe</file><file>\Microsoft.Xaml.Interactions.dll</file><file>\Microsoft.Xaml.Interactivity.dll</file><file>\SharpDX.dll</file><file>\SharpDX.XAudio2.dll</file></Files>

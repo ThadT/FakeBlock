@@ -1,0 +1,39 @@
+﻿<Page
+    x:Class="FakeBlock.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:vm="using:FakeBlock.ViewModel"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:interactivity="using:Microsoft.Xaml.Interactivity"
+    xmlns:core="using:Microsoft.Xaml.Interactions.Core"
+    xmlns:actions="using:FakeBlock.Actions"
+    DataContext="{StaticResource BlockVM}"
+    mc:Ignorable="d">
+    <Grid x:Name="LayoutRoot" PointerPressed="LayoutRoot_PointerPressed" 
+          HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="200"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="{Binding SelectedGrain.ImageFilename}"/>
+        </Grid.Background>
+        <!--<interactivity:Interaction.Behaviors>
+            <core:EventTriggerBehavior EventName="Tapped" >
+                <actions:TapAction SoundFile="{Binding SoundFile}" />
+            </core:EventTriggerBehavior>
+        </interactivity:Interaction.Behaviors>-->
+        <Image Source="Assets/FBLogo.png" />
+        <Image Grid.Row="1" 
+               Width="200" Height="200"
+               Source="{Binding SelectedMallet.ImageFilename}" />
+        <!--<MediaElement x:Name="mediaElementBlock" />-->
+        <!--<MediaElement x:Name="mediaElementMallet" />-->
+    </Grid>
+    <Page.BottomAppBar >
+        <CommandBar>
+            <AppBarButton Icon="Setting" Label="Settings" Click="AppBarButton_Click"/>
+        </CommandBar>
+    </Page.BottomAppBar>
+</Page>

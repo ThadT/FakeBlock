@@ -1,0 +1,1 @@
+C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\FakeBlock.WindowsPhone.csproj;x86

@@ -1,0 +1,13 @@
+﻿<Application
+    x:Class="FakeBlock.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FakeBlock.ViewModels">
+    <Application.Resources>
+        <ResourceDictionary>
+            <local:WoodGrain x:Key="CurrentGrain" Name = "Zebra wood" ImageFilename = "Assets/Wood/zebrawood.jpg" SoundFilename = "ms-appx:///Assets/Sounds/woodblock1.wav" />
+            <local:Mallet x:Key="CurrentMallet" Name="Hammer" ImageFilename="Assets/Mallet/mallet.png" SoundFilename="" />
+            <local:BlockViewModel x:Key="BlockVM" SelectedGrain="{StaticResource CurrentGrain}" SelectedMallet="{StaticResource CurrentMallet}"/>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

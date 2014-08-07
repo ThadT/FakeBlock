@@ -1,0 +1,14 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="c:\development\github\fakeblock\fakeblock.windows\obj\arm\release\intermediatexaml\fakeblock.windows.exe" HashGuid="95198b7d-8896-caf0-2f0c-5b2d005d2030" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windows\v8.1\extensionsdks\behaviorsxamlsdkmanaged\12.0\references\commonconfiguration\neutral\microsoft.xaml.interactions.dll" HashGuid="95a94f94-3917-d473-4f7c-18c4bd437046" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windows\v8.1\extensionsdks\behaviorsxamlsdkmanaged\12.0\references\commonconfiguration\neutral\microsoft.xaml.interactivity.dll" HashGuid="d25f59e6-dd81-900a-0dfc-55b39f6898ef" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windows\v8.1\extensionsdks\microsoft.vclibs\12.0\references\commonconfiguration\neutral\platform.winmd" HashGuid="58b6b6d1-928e-9908-9804-eb460e5e101b" />
+    <ReferenceAssembly PathName="c:\development\github\packages\mvvmlightlibs.4.3.31.1\lib\netcore45\galasoft.mvvmlight.extras.win8.dll" HashGuid="f1644a38-c628-2fde-5283-4e777988788a" />
+    <ReferenceAssembly PathName="c:\development\github\packages\mvvmlightlibs.4.3.31.1\lib\netcore45\galasoft.mvvmlight.win8.dll" HashGuid="0e89fba1-9317-cee7-b759-aaaceabef9d3" />
+    <ReferenceAssembly PathName="c:\development\github\packages\microsoft.applicationinsights.telemetry.windowsstore.0.7.1.0\build\win81\arm\microsoft.applicationinsights.winmd" HashGuid="f4b219f4-52e2-7fb4-490b-3c1f81e3a828" />
+    <ReferenceAssembly PathName="c:\development\github\packages\mvvmlightlibs.4.3.31.1\lib\netcore45\microsoft.practices.servicelocation.dll" HashGuid="d3a03fc5-3dbc-3307-e1a1-f478f8f2a94d" />
+    <ReferenceAssembly PathName="c:\development\github\packages\sharpdx.2.6.0\bin\directx11_2-signed-winrt\sharpdx.dll" HashGuid="985e5bb1-5aae-6692-9b2f-af5f1516b064" />
+    <ReferenceAssembly PathName="c:\development\github\packages\sharpdx.2.6.0\bin\directx11_2-signed-winrt\sharpdx.xaudio2.dll" HashGuid="2b85ea77-857b-7a56-644e-8483fa1ef26a" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

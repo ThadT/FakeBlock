@@ -1,0 +1,72 @@
+﻿<Page
+    x:Class="FakeBlock.SettingsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FakeBlock"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    DataContext="{StaticResource BlockVM}"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="110*"/>
+            <ColumnDefinition Width="270*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Text="Wood:" 
+                   Grid.Row="1" Grid.Column="1"
+                   Margin="0,12"
+                   HorizontalAlignment="Right"
+                   FontSize="22" />
+        <ComboBox Width="230" Background="Gray"
+                  Grid.Row="1" Grid.Column="2"
+                  ItemsSource="{Binding Woods}"
+                  SelectedItem="{Binding SelectedGrain, Mode=TwoWay}">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="{Binding ImageFilename}" 
+                               Width="50" Height="50"
+                               Margin="10,5"/>
+                        <TextBlock Text="{Binding Name}"
+                                   Margin="0,6"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+        <TextBlock Text="Mallet:" 
+                   Grid.Row="2" Grid.Column="1"
+                   Margin="0,12"
+                   HorizontalAlignment="Right"
+                   FontSize="22" />
+        <ComboBox Width="230" Background="Gray"
+                  Grid.Row="2" Grid.Column="2"
+                  ItemsSource="{Binding Mallets}"
+                  SelectedItem="{Binding SelectedMallet, Mode=TwoWay}" Margin="10,-0.333,10,82.333" Grid.RowSpan="3">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="{Binding ImageFilename}" 
+                               Width="50" Height="50"
+                               Margin="10,5"/>
+                        <TextBlock Text="{Binding Name}"
+                                   Margin="0,6"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+        <Button Content="OK" Click="SaveSettings"
+                Grid.Row="5" Grid.Column="2"/>
+    </Grid>
+</Page>
