@@ -1,9 +1,5 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
     <LocalAssembly PathName="c:\development\github\fakeblock\fakeblock.windowsphone\obj\debug\intermediatexaml\fakeblock.windowsphone.exe" HashGuid="f1f693c0-676a-82e0-2bb7-dc56097da10f" />
-    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windowsphoneapp\v8.1\extensionsdks\behaviorsxamlsdkmanaged\12.0\references\commonconfiguration\neutral\microsoft.xaml.interactions.dll" HashGuid="95a94f94-3917-d473-4f7c-18c4bd437046" />
-    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windowsphoneapp\v8.1\extensionsdks\behaviorsxamlsdkmanaged\12.0\references\commonconfiguration\neutral\microsoft.xaml.interactivity.dll" HashGuid="d25f59e6-dd81-900a-0dfc-55b39f6898ef" />
-    <ReferenceAssembly PathName="c:\development\github\packages\sharpdx.2.6.0\bin\directx11_2-signed-wp81\sharpdx.dll" HashGuid="efeaec25-f6eb-3e61-f13e-27a920a65dad" />
-    <ReferenceAssembly PathName="c:\development\github\packages\sharpdx.2.6.0\bin\directx11_2-signed-wp81\sharpdx.xaudio2.dll" HashGuid="ca0b9599-2850-897b-f6de-94c98f18423f" />
   </ReferenceAssemblyList>
 </XamlCompilerSaveState>

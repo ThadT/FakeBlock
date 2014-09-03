@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakeBlock.WindowsPhone", "FakeBlock.WindowsPhone\FakeBlock.WindowsPhone.csproj", "{91BE1A5A-EF07-4324-9F53-F935A97B7799}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "FakeBlock.Shared", "FakeBlock.Shared\FakeBlock.Shared.shproj", "{42BCD6B3-738B-4FF2-8622-DD722F6F5B20}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		FakeBlock.Shared\FakeBlock.Shared.projitems*{91be1a5a-ef07-4324-9f53-f935a97b7799}*SharedItemsImports = 4
+		FakeBlock.Shared\FakeBlock.Shared.projitems*{42bcd6b3-738b-4ff2-8622-dd722f6f5b20}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91BE1A5A-EF07-4324-9F53-F935A97B7799}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91BE1A5A-EF07-4324-9F53-F935A97B7799}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91BE1A5A-EF07-4324-9F53-F935A97B7799}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{91BE1A5A-EF07-4324-9F53-F935A97B7799}.Debug|ARM.ActiveCfg = Debug|ARM
+		{91BE1A5A-EF07-4324-9F53-F935A97B7799}.Debug|ARM.Build.0 = Debug|ARM
+		{91BE1A5A-EF07-4324-9F53-F935A97B7799}.Debug|ARM.Deploy.0 = Debug|ARM
+		{91BE1A5A-EF07-4324-9F53-F935A97B7799}.Debug|x86.ActiveCfg = Debug|x86
+		{91BE1A5A-EF07-4324-9F53-F935A97B7799}.Debug|x86.Build.0 = Debug|x86
+		{91BE1A5A-EF07-4324-9F53-F935A97B7799}.Debug|x86.Deploy.0 = Debug|x86
+		{91BE1A5A-EF07-4324-9F53-F935A97B7799}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91BE1A5A-EF07-4324-9F53-F935A97B7799}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91BE1A5A-EF07-4324-9F53-F935A97B7799}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{91BE1A5A-EF07-4324-9F53-F935A97B7799}.Release|ARM.ActiveCfg = Release|ARM
+		{91BE1A5A-EF07-4324-9F53-F935A97B7799}.Release|ARM.Build.0 = Release|ARM
+		{91BE1A5A-EF07-4324-9F53-F935A97B7799}.Release|ARM.Deploy.0 = Release|ARM
+		{91BE1A5A-EF07-4324-9F53-F935A97B7799}.Release|x86.ActiveCfg = Release|x86
+		{91BE1A5A-EF07-4324-9F53-F935A97B7799}.Release|x86.Build.0 = Release|x86
+		{91BE1A5A-EF07-4324-9F53-F935A97B7799}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

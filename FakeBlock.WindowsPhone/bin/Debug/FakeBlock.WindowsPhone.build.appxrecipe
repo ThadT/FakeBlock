@@ -1,157 +1,172 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>THADTOP</Machine>
+    <Machine>THADT2</Machine>
     <WindowsUser>thad2453</WindowsUser>
     <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
-    <PackageIdentityName>8c93fb8a-9090-4940-8a5d-85fc41cf2c8e</PackageIdentityName>
-    <IntermediateOutputPath>C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\obj\Debug\</IntermediateOutputPath>
+    <PackageIdentityName>f751fd47-66bd-4c92-a0f4-822f9e7680eb</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\thad2453\Documents\GitHub\FakeBlock\FakeBlock.WindowsPhone\obj\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\thad2453\Documents\GitHub\FakeBlock\FakeBlock.WindowsPhone\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\bin\Debug\FakeBlock.WindowsPhone.exe">
+    <AppxPackagedFile Include="C:\Users\thad2453\Documents\GitHub\FakeBlock\FakeBlock.WindowsPhone\bin\Debug\FakeBlock.WindowsPhone.exe">
       <PackagePath>FakeBlock.WindowsPhone.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\BehaviorsXamlSDKManaged\12.0\References\CommonConfiguration\Neutral\Microsoft.Xaml.Interactions.dll">
-      <PackagePath>Microsoft.Xaml.Interactions.dll</PackagePath>
+    <AppxPackagedFile Include="C:\Users\thad2453\Documents\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Ads\BarryZuckerkorn.png">
+      <PackagePath>Assets\Ads\BarryZuckerkorn.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\BehaviorsXamlSDKManaged\12.0\References\CommonConfiguration\Neutral\Microsoft.Xaml.Interactivity.dll">
-      <PackagePath>Microsoft.Xaml.Interactivity.dll</PackagePath>
+    <AppxPackagedFile Include="C:\Users\thad2453\Documents\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Ads\Bluth_MrBananaGrabber.png">
+      <PackagePath>Assets\Ads\Bluth_MrBananaGrabber.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Development\GitHub\packages\SharpDX.2.6.0\build\..\Bin\DirectX11_2-Signed-wp81\SharpDX.dll">
-      <PackagePath>SharpDX.dll</PackagePath>
+    <AppxPackagedFile Include="C:\Users\thad2453\Documents\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Ads\Cornballer.png">
+      <PackagePath>Assets\Ads\Cornballer.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Development\GitHub\packages\SharpDX.2.6.0\build\..\Bin\DirectX11_2-Signed-wp81\SharpDX.XAudio2.dll">
-      <PackagePath>SharpDX.XAudio2.dll</PackagePath>
+    <AppxPackagedFile Include="C:\Users\thad2453\Documents\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Ads\ManInsideMe.png">
+      <PackagePath>Assets\Ads\ManInsideMe.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\BadgeLogo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\thad2453\Documents\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Ads\MilfordAcademy.png">
+      <PackagePath>Assets\Ads\MilfordAcademy.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thad2453\Documents\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Ads\NeverNude5K.png">
+      <PackagePath>Assets\Ads\NeverNude5K.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thad2453\Documents\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Ads\SuddenValley.png">
+      <PackagePath>Assets\Ads\SuddenValley.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thad2453\Documents\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\BadgeLogo.scale-240.png">
       <PackagePath>Assets\BadgeLogo.scale-240.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Logo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\thad2453\Documents\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Ads\GangyIV.png">
+      <PackagePath>Assets\Ads\GangyIV.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thad2453\Documents\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Ads\GobAndFranklin.png">
+      <PackagePath>Assets\Ads\GobAndFranklin.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thad2453\Documents\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Logo.scale-240.png">
       <PackagePath>Assets\Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\FBLogo.png">
+    <AppxPackagedFile Include="C:\Users\thad2453\Documents\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\FBLogo.png">
       <PackagePath>Assets\FBLogo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Mallet\banana.png">
+    <AppxPackagedFile Include="C:\Users\thad2453\Documents\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Mallet\banana.png">
       <PackagePath>Assets\Mallet\banana.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Mallet\bat.png">
+    <AppxPackagedFile Include="C:\Users\thad2453\Documents\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Mallet\bat.png">
       <PackagePath>Assets\Mallet\bat.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Mallet\bottle.png">
+    <AppxPackagedFile Include="C:\Users\thad2453\Documents\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Mallet\bottle.png">
       <PackagePath>Assets\Mallet\bottle.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Mallet\hammer.png">
+    <AppxPackagedFile Include="C:\Users\thad2453\Documents\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Mallet\hammer.png">
       <PackagePath>Assets\Mallet\hammer.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Mallet\hook.png">
+    <AppxPackagedFile Include="C:\Users\thad2453\Documents\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Mallet\hook.png">
       <PackagePath>Assets\Mallet\hook.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Mallet\mallet.png">
+    <AppxPackagedFile Include="C:\Users\thad2453\Documents\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Mallet\mallet.png">
       <PackagePath>Assets\Mallet\mallet.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Mallet\sock.png">
+    <AppxPackagedFile Include="C:\Users\thad2453\Documents\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Mallet\sock.png">
       <PackagePath>Assets\Mallet\sock.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Mallet\stick.png">
+    <AppxPackagedFile Include="C:\Users\thad2453\Documents\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Mallet\stick.png">
       <PackagePath>Assets\Mallet\stick.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\SmallLogo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\thad2453\Documents\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\SmallLogo.scale-240.png">
       <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\SplashScreen.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\thad2453\Documents\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\SplashScreen.scale-240.png">
       <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Square71x71Logo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\thad2453\Documents\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Square71x71Logo.scale-240.png">
       <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\StoreLogo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\thad2453\Documents\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\StoreLogo.scale-240.png">
       <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\WideLogo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\thad2453\Documents\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\WideLogo.scale-240.png">
       <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Sounds\break-glass2.wav">
+    <AppxPackagedFile Include="C:\Users\thad2453\Documents\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Sounds\break-glass2.wav">
       <PackagePath>Assets\Sounds\break-glass2.wav</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Sounds\whip.wav">
+    <AppxPackagedFile Include="C:\Users\thad2453\Documents\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Sounds\whip.wav">
       <PackagePath>Assets\Sounds\whip.wav</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Sounds\woodblock1.wav">
+    <AppxPackagedFile Include="C:\Users\thad2453\Documents\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Sounds\woodblock1.wav">
       <PackagePath>Assets\Sounds\woodblock1.wav</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Sounds\woodblock2.wav">
+    <AppxPackagedFile Include="C:\Users\thad2453\Documents\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Sounds\woodblock2.wav">
       <PackagePath>Assets\Sounds\woodblock2.wav</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Sounds\woodblock3.wav">
+    <AppxPackagedFile Include="C:\Users\thad2453\Documents\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Sounds\woodblock3.wav">
       <PackagePath>Assets\Sounds\woodblock3.wav</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Sounds\woodblock4.wav">
+    <AppxPackagedFile Include="C:\Users\thad2453\Documents\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Sounds\woodblock4.wav">
       <PackagePath>Assets\Sounds\woodblock4.wav</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Sounds\woodblock5.wav">
+    <AppxPackagedFile Include="C:\Users\thad2453\Documents\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Sounds\woodblock5.wav">
       <PackagePath>Assets\Sounds\woodblock5.wav</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Sounds\woodblock6.wav">
+    <AppxPackagedFile Include="C:\Users\thad2453\Documents\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Sounds\woodblock6.wav">
       <PackagePath>Assets\Sounds\woodblock6.wav</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Wood\bamboo.jpg">
+    <AppxPackagedFile Include="C:\Users\thad2453\Documents\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Wood\bamboo.jpg">
       <PackagePath>Assets\Wood\bamboo.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Wood\birdseye-maple.jpg">
+    <AppxPackagedFile Include="C:\Users\thad2453\Documents\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Wood\birdseye-maple.jpg">
       <PackagePath>Assets\Wood\birdseye-maple.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Wood\bloodwood.jpg">
+    <AppxPackagedFile Include="C:\Users\thad2453\Documents\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Wood\bloodwood.jpg">
       <PackagePath>Assets\Wood\bloodwood.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Wood\canarywood.jpg">
+    <AppxPackagedFile Include="C:\Users\thad2453\Documents\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Wood\canarywood.jpg">
       <PackagePath>Assets\Wood\canarywood.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Wood\macassar-ebony.jpg">
+    <AppxPackagedFile Include="C:\Users\thad2453\Documents\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Wood\macassar-ebony.jpg">
       <PackagePath>Assets\Wood\macassar-ebony.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Wood\malaysian-blackwood.jpg">
+    <AppxPackagedFile Include="C:\Users\thad2453\Documents\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Wood\malaysian-blackwood.jpg">
       <PackagePath>Assets\Wood\malaysian-blackwood.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Wood\marblewood.jpg">
+    <AppxPackagedFile Include="C:\Users\thad2453\Documents\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Wood\marblewood.jpg">
       <PackagePath>Assets\Wood\marblewood.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Wood\red-oak.jpg">
+    <AppxPackagedFile Include="C:\Users\thad2453\Documents\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Wood\red-oak.jpg">
       <PackagePath>Assets\Wood\red-oak.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Wood\shagbark-hickory.jpg">
+    <AppxPackagedFile Include="C:\Users\thad2453\Documents\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Wood\shagbark-hickory.jpg">
       <PackagePath>Assets\Wood\shagbark-hickory.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Wood\zebrawood.jpg">
+    <AppxPackagedFile Include="C:\Users\thad2453\Documents\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Wood\zebrawood.jpg">
       <PackagePath>Assets\Wood\zebrawood.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\bin\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\thad2453\Documents\GitHub\FakeBlock\FakeBlock.WindowsPhone\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\bin\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\thad2453\Documents\GitHub\FakeBlock\FakeBlock.WindowsPhone\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\bin\Debug\SettingsPage.xbf">
+    <AppxPackagedFile Include="C:\Users\thad2453\Documents\GitHub\FakeBlock\FakeBlock.WindowsPhone\bin\Debug\SettingsPage.xbf">
       <PackagePath>SettingsPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\bin\Debug\FakeBlock.WindowsPhone.xr.xml">
+    <AppxPackagedFile Include="C:\Users\thad2453\Documents\GitHub\FakeBlock\FakeBlock.WindowsPhone\bin\Debug\FakeBlock.WindowsPhone.xr.xml">
       <PackagePath>FakeBlock.WindowsPhone.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\thad2453\Documents\GitHub\FakeBlock\FakeBlock.WindowsPhone\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

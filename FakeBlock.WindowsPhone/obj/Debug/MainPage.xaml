@@ -10,11 +10,12 @@
     xmlns:actions="using:FakeBlock.Actions"
     DataContext="{StaticResource BlockVM}"
     mc:Ignorable="d">
-    <Grid x:ConnectionId='1' x:Name="LayoutRoot"                           
+    <Grid x:ConnectionId='1' x:Name="LayoutRoot"                                            
           HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
         <Grid.RowDefinitions>
             <RowDefinition Height="200"/>
             <RowDefinition/>
+<RowDefinition Height="150"/>
         </Grid.RowDefinitions>
         <Grid.Background>
             <ImageBrush ImageSource="{Binding SelectedGrain.ImageFilename}"/>
@@ -28,8 +29,8 @@
         <Image Grid.Row="1" 
                Width="200" Height="200"
                Source="{Binding SelectedMallet.ImageFilename}" />
-        <MediaElement x:Name="mediaElementBlock" />
-        <MediaElement x:Name="mediaElementMallet" />
+        <Image Grid.Row="2" 
+                Source="{Binding CurrentAdImage}"/>
     </Grid>
     <Page.BottomAppBar >
         <CommandBar>

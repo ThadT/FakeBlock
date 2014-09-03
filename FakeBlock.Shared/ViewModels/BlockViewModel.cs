@@ -32,7 +32,7 @@ namespace FakeBlock.ViewModels
         private void AdTimerTick(object state)
         {
             this.currentAdIndex ++;
-            if (this.currentAdIndex > 6) { this.currentAdIndex = 0; }
+            if (this.currentAdIndex > 8) { this.currentAdIndex = 0; }
 
             UIDispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () => CurrentAdImage = this.adImages[this.currentAdIndex] );
           //  CurrentAdImage = this.adImages[this.currentAdIndex];
@@ -98,6 +98,8 @@ namespace FakeBlock.ViewModels
             this.adImages.Add(4,"/Assets/Ads/MilfordAcademy.png");
             this.adImages.Add(5,"/Assets/Ads/NeverNude5k.png");
             this.adImages.Add(6,"/Assets/Ads/SuddenValley.png");
+            this.adImages.Add(7, "/Assets/Ads/GangyIV.png");
+            this.adImages.Add(8, "/Assets/Ads/GobAndFranklin.png");
         }
 
         public System.Collections.ObjectModel.ObservableCollection<WoodGrain> Woods

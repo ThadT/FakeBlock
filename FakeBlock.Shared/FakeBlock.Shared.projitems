@@ -16,7 +16,6 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)AppSettings.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)SoundUtilities.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\BlockViewModel.cs" />
   </ItemGroup>
 </Project>
