@@ -3,6 +3,7 @@
   <Roots.PropertyPathNames>
     <RootPropertyPathName Name="SelectedGrain" />
     <RootPropertyPathName Name="ImageFilename" />
+    <RootPropertyPathName Name="CurrentAdImage" />
     <RootPropertyPathName Name="SelectedMallet" />
     <RootPropertyPathName Name="Mallets" />
     <RootPropertyPathName Name="Name" />

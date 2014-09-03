@@ -27,7 +27,11 @@ namespace FakeBlock
         {
             this.InitializeComponent();
             this.NavigationCacheMode = NavigationCacheMode.Required;
-            
+           
+            // pass the UI dispatcher to the view model (required for updating the ad image property from the timer)
+            var vm = this.DataContext as FakeBlock.ViewModels.BlockViewModel;
+            var dispatcher = Windows.UI.Core.CoreWindow.GetForCurrentThread().Dispatcher;
+            vm.UIDispatcher = dispatcher; 
         }
 
         /// <summary>

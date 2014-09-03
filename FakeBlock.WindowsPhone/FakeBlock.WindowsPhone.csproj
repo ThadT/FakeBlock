@@ -102,6 +102,13 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Ads\BarryZuckerkorn.png" />
+    <Content Include="Assets\Ads\Bluth_MrBananaGrabber.png" />
+    <Content Include="Assets\Ads\Cornballer.png" />
+    <Content Include="Assets\Ads\ManInsideMe.png" />
+    <Content Include="Assets\Ads\MilfordAcademy.png" />
+    <Content Include="Assets\Ads\NeverNude5K.png" />
+    <Content Include="Assets\Ads\SuddenValley.png" />
     <Content Include="Assets\BadgeLogo.scale-240.png" />
     <Content Include="Assets\Logo.scale-240.png" />
     <Content Include="Assets\FBLogo.png" />

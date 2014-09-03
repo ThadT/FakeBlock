@@ -267,6 +267,7 @@ namespace FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo
                 userType.AddMemberName("SelectedGrain");
                 userType.AddMemberName("SelectedMallet");
                 userType.AddMemberName("Woods");
+                userType.AddMemberName("CurrentAdImage");
                 userType.AddMemberName("Mallets");
                 userType.AddMemberName("BlockSoundFile");
                 userType.AddMemberName("MalletSoundFile");
@@ -424,22 +425,32 @@ namespace FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo
             var that = (global::FakeBlock.ViewModels.BlockViewModel)instance;
             that.Woods = (global::System.Collections.ObjectModel.ObservableCollection<global::FakeBlock.ViewModels.WoodGrain>)Value;
         }
-        private object get_9_BlockViewModel_Mallets(object instance)
+        private object get_9_BlockViewModel_CurrentAdImage(object instance)
+        {
+            var that = (global::FakeBlock.ViewModels.BlockViewModel)instance;
+            return that.CurrentAdImage;
+        }
+        private void set_9_BlockViewModel_CurrentAdImage(object instance, object Value)
+        {
+            var that = (global::FakeBlock.ViewModels.BlockViewModel)instance;
+            that.CurrentAdImage = (global::System.String)Value;
+        }
+        private object get_10_BlockViewModel_Mallets(object instance)
         {
             var that = (global::FakeBlock.ViewModels.BlockViewModel)instance;
             return that.Mallets;
         }
-        private void set_9_BlockViewModel_Mallets(object instance, object Value)
+        private void set_10_BlockViewModel_Mallets(object instance, object Value)
         {
             var that = (global::FakeBlock.ViewModels.BlockViewModel)instance;
             that.Mallets = (global::System.Collections.ObjectModel.ObservableCollection<global::FakeBlock.ViewModels.Mallet>)Value;
         }
-        private object get_10_BlockViewModel_BlockSoundFile(object instance)
+        private object get_11_BlockViewModel_BlockSoundFile(object instance)
         {
             var that = (global::FakeBlock.ViewModels.BlockViewModel)instance;
             return that.BlockSoundFile;
         }
-        private object get_11_BlockViewModel_MalletSoundFile(object instance)
+        private object get_12_BlockViewModel_MalletSoundFile(object instance)
         {
             var that = (global::FakeBlock.ViewModels.BlockViewModel)instance;
             return that.MalletSoundFile;
@@ -506,22 +517,28 @@ namespace FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo
                 xamlMember.Getter = get_8_BlockViewModel_Woods;
                 xamlMember.Setter = set_8_BlockViewModel_Woods;
                 break;
+            case "FakeBlock.ViewModels.BlockViewModel.CurrentAdImage":
+                userType = (global::FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("FakeBlock.ViewModels.BlockViewModel");
+                xamlMember = new global::FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo.XamlMember(this, "CurrentAdImage", "String");
+                xamlMember.Getter = get_9_BlockViewModel_CurrentAdImage;
+                xamlMember.Setter = set_9_BlockViewModel_CurrentAdImage;
+                break;
             case "FakeBlock.ViewModels.BlockViewModel.Mallets":
                 userType = (global::FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("FakeBlock.ViewModels.BlockViewModel");
                 xamlMember = new global::FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo.XamlMember(this, "Mallets", "System.Collections.ObjectModel.ObservableCollection`1<FakeBlock.ViewModels.Mallet>");
-                xamlMember.Getter = get_9_BlockViewModel_Mallets;
-                xamlMember.Setter = set_9_BlockViewModel_Mallets;
+                xamlMember.Getter = get_10_BlockViewModel_Mallets;
+                xamlMember.Setter = set_10_BlockViewModel_Mallets;
                 break;
             case "FakeBlock.ViewModels.BlockViewModel.BlockSoundFile":
                 userType = (global::FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("FakeBlock.ViewModels.BlockViewModel");
                 xamlMember = new global::FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo.XamlMember(this, "BlockSoundFile", "Windows.Storage.StorageFile");
-                xamlMember.Getter = get_10_BlockViewModel_BlockSoundFile;
+                xamlMember.Getter = get_11_BlockViewModel_BlockSoundFile;
                 xamlMember.SetIsReadOnly();
                 break;
             case "FakeBlock.ViewModels.BlockViewModel.MalletSoundFile":
                 userType = (global::FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("FakeBlock.ViewModels.BlockViewModel");
                 xamlMember = new global::FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo.XamlMember(this, "MalletSoundFile", "Windows.Storage.StorageFile");
-                xamlMember.Getter = get_11_BlockViewModel_MalletSoundFile;
+                xamlMember.Getter = get_12_BlockViewModel_MalletSoundFile;
                 xamlMember.SetIsReadOnly();
                 break;
             }
@@ -849,5 +866,9 @@ namespace FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo
         }
     }
 }
+
+
+
+
 
 

@@ -13,13 +13,13 @@ namespace FakeBlock
 {
     public partial class App : global::Windows.UI.Xaml.Markup.IXamlMetadataProvider
     {
-        private global::FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo.XamlTypeInfoProvider _provider;
+        private global::FakeBlock.FakeBlock_Windows_XamlTypeInfo.XamlTypeInfoProvider _provider;
 
         public global::Windows.UI.Xaml.Markup.IXamlType GetXamlType(global::System.Type type)
         {
             if(_provider == null)
             {
-                _provider = new global::FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo.XamlTypeInfoProvider();
+                _provider = new global::FakeBlock.FakeBlock_Windows_XamlTypeInfo.XamlTypeInfoProvider();
             }
             return _provider.GetXamlTypeByType(type);
         }
@@ -28,7 +28,7 @@ namespace FakeBlock
         {
             if(_provider == null)
             {
-                _provider = new global::FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo.XamlTypeInfoProvider();
+                _provider = new global::FakeBlock.FakeBlock_Windows_XamlTypeInfo.XamlTypeInfoProvider();
             }
             return _provider.GetXamlTypeByName(fullName);
         }
@@ -40,7 +40,7 @@ namespace FakeBlock
     }
 }
 
-namespace FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo
+namespace FakeBlock.FakeBlock_Windows_XamlTypeInfo
 {
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks", "4.0.0.0")]    
@@ -124,7 +124,7 @@ namespace FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[14];
+            _typeNameTable = new string[13];
             _typeNameTable[0] = "FakeBlock.ViewModels.WoodGrain";
             _typeNameTable[1] = "Object";
             _typeNameTable[2] = "String";
@@ -138,9 +138,8 @@ namespace FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo
             _typeNameTable[10] = "FakeBlock.MainPage";
             _typeNameTable[11] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[12] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[13] = "FakeBlock.SettingsPage";
 
-            _typeTable = new global::System.Type[14];
+            _typeTable = new global::System.Type[13];
             _typeTable[0] = typeof(global::FakeBlock.ViewModels.WoodGrain);
             _typeTable[1] = typeof(global::System.Object);
             _typeTable[2] = typeof(global::System.String);
@@ -154,7 +153,6 @@ namespace FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo
             _typeTable[10] = typeof(global::FakeBlock.MainPage);
             _typeTable[11] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[12] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[13] = typeof(global::FakeBlock.SettingsPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -197,7 +195,6 @@ namespace FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo
         private object Activate_7_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::FakeBlock.ViewModels.Mallet>(); }
         private object Activate_8_Collection() { return new global::System.Collections.ObjectModel.Collection<global::FakeBlock.ViewModels.Mallet>(); }
         private object Activate_10_MainPage() { return new global::FakeBlock.MainPage(); }
-        private object Activate_13_SettingsPage() { return new global::FakeBlock.SettingsPage(); }
         private void VectorAdd_5_ObservableCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::FakeBlock.ViewModels.WoodGrain>)instance;
@@ -225,8 +222,8 @@ namespace FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
-            global::FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo.XamlSystemBaseType xamlType = null;
-            global::FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo.XamlUserType userType;
+            global::FakeBlock.FakeBlock_Windows_XamlTypeInfo.XamlSystemBaseType xamlType = null;
+            global::FakeBlock.FakeBlock_Windows_XamlTypeInfo.XamlUserType userType;
             string typeName = _typeNameTable[typeIndex];
             global::System.Type type = _typeTable[typeIndex];
 
@@ -234,7 +231,7 @@ namespace FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo
             {
 
             case 0:   //  FakeBlock.ViewModels.WoodGrain
-                userType = new global::FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType = new global::FakeBlock.FakeBlock_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.Activator = Activate_0_WoodGrain;
                 userType.AddMemberName("Name");
                 userType.AddMemberName("ImageFilename");
@@ -244,15 +241,15 @@ namespace FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo
                 break;
 
             case 1:   //  Object
-                xamlType = new global::FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::FakeBlock.FakeBlock_Windows_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 2:   //  String
-                xamlType = new global::FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::FakeBlock.FakeBlock_Windows_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 3:   //  FakeBlock.ViewModels.Mallet
-                userType = new global::FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType = new global::FakeBlock.FakeBlock_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.Activator = Activate_3_Mallet;
                 userType.AddMemberName("Name");
                 userType.AddMemberName("ImageFilename");
@@ -262,11 +259,12 @@ namespace FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo
                 break;
 
             case 4:   //  FakeBlock.ViewModels.BlockViewModel
-                userType = new global::FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType = new global::FakeBlock.FakeBlock_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.Activator = Activate_4_BlockViewModel;
                 userType.AddMemberName("SelectedGrain");
                 userType.AddMemberName("SelectedMallet");
                 userType.AddMemberName("Woods");
+                userType.AddMemberName("CurrentAdImage");
                 userType.AddMemberName("Mallets");
                 userType.AddMemberName("BlockSoundFile");
                 userType.AddMemberName("MalletSoundFile");
@@ -275,59 +273,52 @@ namespace FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo
                 break;
 
             case 5:   //  System.Collections.ObjectModel.ObservableCollection`1<FakeBlock.ViewModels.WoodGrain>
-                userType = new global::FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<FakeBlock.ViewModels.WoodGrain>"));
+                userType = new global::FakeBlock.FakeBlock_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<FakeBlock.ViewModels.WoodGrain>"));
                 userType.CollectionAdd = VectorAdd_5_ObservableCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
             case 6:   //  System.Collections.ObjectModel.Collection`1<FakeBlock.ViewModels.WoodGrain>
-                userType = new global::FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType = new global::FakeBlock.FakeBlock_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.Activator = Activate_6_Collection;
                 userType.CollectionAdd = VectorAdd_6_Collection;
                 xamlType = userType;
                 break;
 
             case 7:   //  System.Collections.ObjectModel.ObservableCollection`1<FakeBlock.ViewModels.Mallet>
-                userType = new global::FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<FakeBlock.ViewModels.Mallet>"));
+                userType = new global::FakeBlock.FakeBlock_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<FakeBlock.ViewModels.Mallet>"));
                 userType.CollectionAdd = VectorAdd_7_ObservableCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
             case 8:   //  System.Collections.ObjectModel.Collection`1<FakeBlock.ViewModels.Mallet>
-                userType = new global::FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType = new global::FakeBlock.FakeBlock_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.Activator = Activate_8_Collection;
                 userType.CollectionAdd = VectorAdd_8_Collection;
                 xamlType = userType;
                 break;
 
             case 9:   //  Windows.Storage.StorageFile
-                userType = new global::FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType = new global::FakeBlock.FakeBlock_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
             case 10:   //  FakeBlock.MainPage
-                userType = new global::FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType = new global::FakeBlock.FakeBlock_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_10_MainPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
             case 11:   //  Windows.UI.Xaml.Controls.Page
-                xamlType = new global::FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::FakeBlock.FakeBlock_Windows_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 12:   //  Windows.UI.Xaml.Controls.UserControl
-                xamlType = new global::FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 13:   //  FakeBlock.SettingsPage
-                userType = new global::FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_13_SettingsPage;
-                userType.SetIsLocalType();
-                xamlType = userType;
+                xamlType = new global::FakeBlock.FakeBlock_Windows_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
             }
             return xamlType;
@@ -424,22 +415,32 @@ namespace FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo
             var that = (global::FakeBlock.ViewModels.BlockViewModel)instance;
             that.Woods = (global::System.Collections.ObjectModel.ObservableCollection<global::FakeBlock.ViewModels.WoodGrain>)Value;
         }
-        private object get_9_BlockViewModel_Mallets(object instance)
+        private object get_9_BlockViewModel_CurrentAdImage(object instance)
+        {
+            var that = (global::FakeBlock.ViewModels.BlockViewModel)instance;
+            return that.CurrentAdImage;
+        }
+        private void set_9_BlockViewModel_CurrentAdImage(object instance, object Value)
+        {
+            var that = (global::FakeBlock.ViewModels.BlockViewModel)instance;
+            that.CurrentAdImage = (global::System.String)Value;
+        }
+        private object get_10_BlockViewModel_Mallets(object instance)
         {
             var that = (global::FakeBlock.ViewModels.BlockViewModel)instance;
             return that.Mallets;
         }
-        private void set_9_BlockViewModel_Mallets(object instance, object Value)
+        private void set_10_BlockViewModel_Mallets(object instance, object Value)
         {
             var that = (global::FakeBlock.ViewModels.BlockViewModel)instance;
             that.Mallets = (global::System.Collections.ObjectModel.ObservableCollection<global::FakeBlock.ViewModels.Mallet>)Value;
         }
-        private object get_10_BlockViewModel_BlockSoundFile(object instance)
+        private object get_11_BlockViewModel_BlockSoundFile(object instance)
         {
             var that = (global::FakeBlock.ViewModels.BlockViewModel)instance;
             return that.BlockSoundFile;
         }
-        private object get_11_BlockViewModel_MalletSoundFile(object instance)
+        private object get_12_BlockViewModel_MalletSoundFile(object instance)
         {
             var that = (global::FakeBlock.ViewModels.BlockViewModel)instance;
             return that.MalletSoundFile;
@@ -447,81 +448,87 @@ namespace FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
         {
-            global::FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo.XamlMember xamlMember = null;
-            global::FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo.XamlUserType userType;
+            global::FakeBlock.FakeBlock_Windows_XamlTypeInfo.XamlMember xamlMember = null;
+            global::FakeBlock.FakeBlock_Windows_XamlTypeInfo.XamlUserType userType;
 
             switch (longMemberName)
             {
             case "FakeBlock.ViewModels.WoodGrain.Name":
-                userType = (global::FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("FakeBlock.ViewModels.WoodGrain");
-                xamlMember = new global::FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo.XamlMember(this, "Name", "String");
+                userType = (global::FakeBlock.FakeBlock_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("FakeBlock.ViewModels.WoodGrain");
+                xamlMember = new global::FakeBlock.FakeBlock_Windows_XamlTypeInfo.XamlMember(this, "Name", "String");
                 xamlMember.Getter = get_0_WoodGrain_Name;
                 xamlMember.Setter = set_0_WoodGrain_Name;
                 break;
             case "FakeBlock.ViewModels.WoodGrain.ImageFilename":
-                userType = (global::FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("FakeBlock.ViewModels.WoodGrain");
-                xamlMember = new global::FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo.XamlMember(this, "ImageFilename", "String");
+                userType = (global::FakeBlock.FakeBlock_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("FakeBlock.ViewModels.WoodGrain");
+                xamlMember = new global::FakeBlock.FakeBlock_Windows_XamlTypeInfo.XamlMember(this, "ImageFilename", "String");
                 xamlMember.Getter = get_1_WoodGrain_ImageFilename;
                 xamlMember.Setter = set_1_WoodGrain_ImageFilename;
                 break;
             case "FakeBlock.ViewModels.WoodGrain.SoundFilename":
-                userType = (global::FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("FakeBlock.ViewModels.WoodGrain");
-                xamlMember = new global::FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo.XamlMember(this, "SoundFilename", "String");
+                userType = (global::FakeBlock.FakeBlock_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("FakeBlock.ViewModels.WoodGrain");
+                xamlMember = new global::FakeBlock.FakeBlock_Windows_XamlTypeInfo.XamlMember(this, "SoundFilename", "String");
                 xamlMember.Getter = get_2_WoodGrain_SoundFilename;
                 xamlMember.Setter = set_2_WoodGrain_SoundFilename;
                 break;
             case "FakeBlock.ViewModels.Mallet.Name":
-                userType = (global::FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("FakeBlock.ViewModels.Mallet");
-                xamlMember = new global::FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo.XamlMember(this, "Name", "String");
+                userType = (global::FakeBlock.FakeBlock_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("FakeBlock.ViewModels.Mallet");
+                xamlMember = new global::FakeBlock.FakeBlock_Windows_XamlTypeInfo.XamlMember(this, "Name", "String");
                 xamlMember.Getter = get_3_Mallet_Name;
                 xamlMember.Setter = set_3_Mallet_Name;
                 break;
             case "FakeBlock.ViewModels.Mallet.ImageFilename":
-                userType = (global::FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("FakeBlock.ViewModels.Mallet");
-                xamlMember = new global::FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo.XamlMember(this, "ImageFilename", "String");
+                userType = (global::FakeBlock.FakeBlock_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("FakeBlock.ViewModels.Mallet");
+                xamlMember = new global::FakeBlock.FakeBlock_Windows_XamlTypeInfo.XamlMember(this, "ImageFilename", "String");
                 xamlMember.Getter = get_4_Mallet_ImageFilename;
                 xamlMember.Setter = set_4_Mallet_ImageFilename;
                 break;
             case "FakeBlock.ViewModels.Mallet.SoundFilename":
-                userType = (global::FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("FakeBlock.ViewModels.Mallet");
-                xamlMember = new global::FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo.XamlMember(this, "SoundFilename", "String");
+                userType = (global::FakeBlock.FakeBlock_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("FakeBlock.ViewModels.Mallet");
+                xamlMember = new global::FakeBlock.FakeBlock_Windows_XamlTypeInfo.XamlMember(this, "SoundFilename", "String");
                 xamlMember.Getter = get_5_Mallet_SoundFilename;
                 xamlMember.Setter = set_5_Mallet_SoundFilename;
                 break;
             case "FakeBlock.ViewModels.BlockViewModel.SelectedGrain":
-                userType = (global::FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("FakeBlock.ViewModels.BlockViewModel");
-                xamlMember = new global::FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo.XamlMember(this, "SelectedGrain", "FakeBlock.ViewModels.WoodGrain");
+                userType = (global::FakeBlock.FakeBlock_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("FakeBlock.ViewModels.BlockViewModel");
+                xamlMember = new global::FakeBlock.FakeBlock_Windows_XamlTypeInfo.XamlMember(this, "SelectedGrain", "FakeBlock.ViewModels.WoodGrain");
                 xamlMember.Getter = get_6_BlockViewModel_SelectedGrain;
                 xamlMember.Setter = set_6_BlockViewModel_SelectedGrain;
                 break;
             case "FakeBlock.ViewModels.BlockViewModel.SelectedMallet":
-                userType = (global::FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("FakeBlock.ViewModels.BlockViewModel");
-                xamlMember = new global::FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo.XamlMember(this, "SelectedMallet", "FakeBlock.ViewModels.Mallet");
+                userType = (global::FakeBlock.FakeBlock_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("FakeBlock.ViewModels.BlockViewModel");
+                xamlMember = new global::FakeBlock.FakeBlock_Windows_XamlTypeInfo.XamlMember(this, "SelectedMallet", "FakeBlock.ViewModels.Mallet");
                 xamlMember.Getter = get_7_BlockViewModel_SelectedMallet;
                 xamlMember.Setter = set_7_BlockViewModel_SelectedMallet;
                 break;
             case "FakeBlock.ViewModels.BlockViewModel.Woods":
-                userType = (global::FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("FakeBlock.ViewModels.BlockViewModel");
-                xamlMember = new global::FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo.XamlMember(this, "Woods", "System.Collections.ObjectModel.ObservableCollection`1<FakeBlock.ViewModels.WoodGrain>");
+                userType = (global::FakeBlock.FakeBlock_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("FakeBlock.ViewModels.BlockViewModel");
+                xamlMember = new global::FakeBlock.FakeBlock_Windows_XamlTypeInfo.XamlMember(this, "Woods", "System.Collections.ObjectModel.ObservableCollection`1<FakeBlock.ViewModels.WoodGrain>");
                 xamlMember.Getter = get_8_BlockViewModel_Woods;
                 xamlMember.Setter = set_8_BlockViewModel_Woods;
                 break;
+            case "FakeBlock.ViewModels.BlockViewModel.CurrentAdImage":
+                userType = (global::FakeBlock.FakeBlock_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("FakeBlock.ViewModels.BlockViewModel");
+                xamlMember = new global::FakeBlock.FakeBlock_Windows_XamlTypeInfo.XamlMember(this, "CurrentAdImage", "String");
+                xamlMember.Getter = get_9_BlockViewModel_CurrentAdImage;
+                xamlMember.Setter = set_9_BlockViewModel_CurrentAdImage;
+                break;
             case "FakeBlock.ViewModels.BlockViewModel.Mallets":
-                userType = (global::FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("FakeBlock.ViewModels.BlockViewModel");
-                xamlMember = new global::FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo.XamlMember(this, "Mallets", "System.Collections.ObjectModel.ObservableCollection`1<FakeBlock.ViewModels.Mallet>");
-                xamlMember.Getter = get_9_BlockViewModel_Mallets;
-                xamlMember.Setter = set_9_BlockViewModel_Mallets;
+                userType = (global::FakeBlock.FakeBlock_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("FakeBlock.ViewModels.BlockViewModel");
+                xamlMember = new global::FakeBlock.FakeBlock_Windows_XamlTypeInfo.XamlMember(this, "Mallets", "System.Collections.ObjectModel.ObservableCollection`1<FakeBlock.ViewModels.Mallet>");
+                xamlMember.Getter = get_10_BlockViewModel_Mallets;
+                xamlMember.Setter = set_10_BlockViewModel_Mallets;
                 break;
             case "FakeBlock.ViewModels.BlockViewModel.BlockSoundFile":
-                userType = (global::FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("FakeBlock.ViewModels.BlockViewModel");
-                xamlMember = new global::FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo.XamlMember(this, "BlockSoundFile", "Windows.Storage.StorageFile");
-                xamlMember.Getter = get_10_BlockViewModel_BlockSoundFile;
+                userType = (global::FakeBlock.FakeBlock_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("FakeBlock.ViewModels.BlockViewModel");
+                xamlMember = new global::FakeBlock.FakeBlock_Windows_XamlTypeInfo.XamlMember(this, "BlockSoundFile", "Windows.Storage.StorageFile");
+                xamlMember.Getter = get_11_BlockViewModel_BlockSoundFile;
                 xamlMember.SetIsReadOnly();
                 break;
             case "FakeBlock.ViewModels.BlockViewModel.MalletSoundFile":
-                userType = (global::FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("FakeBlock.ViewModels.BlockViewModel");
-                xamlMember = new global::FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo.XamlMember(this, "MalletSoundFile", "Windows.Storage.StorageFile");
-                xamlMember.Getter = get_11_BlockViewModel_MalletSoundFile;
+                userType = (global::FakeBlock.FakeBlock_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("FakeBlock.ViewModels.BlockViewModel");
+                xamlMember = new global::FakeBlock.FakeBlock_Windows_XamlTypeInfo.XamlMember(this, "MalletSoundFile", "Windows.Storage.StorageFile");
+                xamlMember.Getter = get_12_BlockViewModel_MalletSoundFile;
                 xamlMember.SetIsReadOnly();
                 break;
             }
@@ -580,9 +587,9 @@ namespace FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks", "4.0.0.0")]    
     [System.Diagnostics.DebuggerNonUserCodeAttribute()]
-    internal class XamlUserType : global::FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo.XamlSystemBaseType
+    internal class XamlUserType : global::FakeBlock.FakeBlock_Windows_XamlTypeInfo.XamlSystemBaseType
     {
-        global::FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo.XamlTypeInfoProvider _provider;
+        global::FakeBlock.FakeBlock_Windows_XamlTypeInfo.XamlTypeInfoProvider _provider;
         global::Windows.UI.Xaml.Markup.IXamlType _baseType;
         bool _isArray;
         bool _isMarkupExtension;
@@ -596,7 +603,7 @@ namespace FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo
         global::System.Collections.Generic.Dictionary<string, string> _memberNames;
         global::System.Collections.Generic.Dictionary<string, object> _enumValues;
 
-        public XamlUserType(global::FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo.XamlTypeInfoProvider provider, string fullName, global::System.Type fullType, global::Windows.UI.Xaml.Markup.IXamlType baseType)
+        public XamlUserType(global::FakeBlock.FakeBlock_Windows_XamlTypeInfo.XamlTypeInfoProvider provider, string fullName, global::System.Type fullType, global::Windows.UI.Xaml.Markup.IXamlType baseType)
             :base(fullName, fullType)
         {
             _provider = provider;
@@ -789,7 +796,7 @@ namespace FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo
     [System.Diagnostics.DebuggerNonUserCodeAttribute()]
     internal class XamlMember : global::Windows.UI.Xaml.Markup.IXamlMember
     {
-        global::FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo.XamlTypeInfoProvider _provider;
+        global::FakeBlock.FakeBlock_Windows_XamlTypeInfo.XamlTypeInfoProvider _provider;
         string _name;
         bool _isAttachable;
         bool _isDependencyProperty;
@@ -798,7 +805,7 @@ namespace FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo
         string _typeName;
         string _targetTypeName;
 
-        public XamlMember(global::FakeBlock.FakeBlock_WindowsPhone_XamlTypeInfo.XamlTypeInfoProvider provider, string name, string typeName)
+        public XamlMember(global::FakeBlock.FakeBlock_Windows_XamlTypeInfo.XamlTypeInfoProvider provider, string name, string typeName)
         {
             _name = name;
             _typeName = typeName;

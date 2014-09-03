@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>THADTOP</Machine>
+    <WindowsUser>thad2453</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Release|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>b276c83a-8d95-4a7c-b44c-f3a91f4d308b</PackageIdentityName>
+    <IntermediateOutputPath>C:\Development\GitHub\FakeBlock\FakeBlock.Windows\obj\x86\Release\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Development\GitHub\FakeBlock\FakeBlock.Windows\bin\x86\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.Windows\bin\x86\Release\FakeBlock.Windows.exe">
+      <PackagePath>FakeBlock.Windows.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\BehaviorsXamlSDKManaged\12.0\References\CommonConfiguration\Neutral\Microsoft.Xaml.Interactions.dll">
+      <PackagePath>Microsoft.Xaml.Interactions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\BehaviorsXamlSDKManaged\12.0\References\CommonConfiguration\Neutral\Microsoft.Xaml.Interactivity.dll">
+      <PackagePath>Microsoft.Xaml.Interactivity.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Development\GitHub\packages\MvvmLightLibs.4.3.31.1\lib\netcore45\GalaSoft.MvvmLight.Extras.Win8.dll">
+      <PackagePath>GalaSoft.MvvmLight.Extras.Win8.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Development\GitHub\packages\MvvmLightLibs.4.3.31.1\lib\netcore45\GalaSoft.MvvmLight.Win8.dll">
+      <PackagePath>GalaSoft.MvvmLight.Win8.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Development\GitHub\packages\MvvmLightLibs.4.3.31.1\lib\netcore45\Microsoft.Practices.ServiceLocation.dll">
+      <PackagePath>Microsoft.Practices.ServiceLocation.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Development\GitHub\packages\SharpDX.2.6.0\build\..\Bin\DirectX11_2-Signed-winrt\SharpDX.dll">
+      <PackagePath>SharpDX.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Development\GitHub\packages\SharpDX.2.6.0\build\..\Bin\DirectX11_2-Signed-winrt\SharpDX.XAudio2.dll">
+      <PackagePath>SharpDX.XAudio2.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Development\GitHub\packages\Microsoft.ApplicationInsights.Telemetry.WindowsStore.0.7.1.0\build\win81\x86\Microsoft.ApplicationInsights.dll">
+      <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Development\GitHub\packages\Microsoft.ApplicationInsights.Telemetry.WindowsStore.0.7.1.0\build\win81\\x86\Microsoft.ApplicationInsights.winmd">
+      <PackagePath>Microsoft.ApplicationInsights.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.Windows\ApplicationInsights.config">
+      <PackagePath>ApplicationInsights.config</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.Windows\Assets\Sounds\woodblock1.wav">
+      <PackagePath>Assets\Sounds\woodblock1.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.Windows\Assets\Sounds\woodblock2.wav">
+      <PackagePath>Assets\Sounds\woodblock2.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.Windows\Assets\Sounds\woodblock3.wav">
+      <PackagePath>Assets\Sounds\woodblock3.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.Windows\Assets\Sounds\woodblock4.wav">
+      <PackagePath>Assets\Sounds\woodblock4.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.Windows\Assets\Sounds\woodblock5.wav">
+      <PackagePath>Assets\Sounds\woodblock5.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.Windows\Assets\Sounds\woodblock6.wav">
+      <PackagePath>Assets\Sounds\woodblock6.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.Windows\Assets\Wood\bamboo.jpg">
+      <PackagePath>Assets\Wood\bamboo.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.Windows\Assets\Wood\birdseye-maple.jpg">
+      <PackagePath>Assets\Wood\birdseye-maple.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.Windows\Assets\Wood\bloodwood.jpg">
+      <PackagePath>Assets\Wood\bloodwood.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.Windows\Assets\Wood\canarywood.jpg">
+      <PackagePath>Assets\Wood\canarywood.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.Windows\Assets\Wood\Grain1.jpg">
+      <PackagePath>Assets\Wood\Grain1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.Windows\Assets\Wood\macassar-ebony.jpg">
+      <PackagePath>Assets\Wood\macassar-ebony.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.Windows\Assets\Wood\malaysian-blackwood.jpg">
+      <PackagePath>Assets\Wood\malaysian-blackwood.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.Windows\Assets\Wood\marblewood.jpg">
+      <PackagePath>Assets\Wood\marblewood.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.Windows\Assets\Wood\nutmeg-hickory.jpg">
+      <PackagePath>Assets\Wood\nutmeg-hickory.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.Windows\Assets\Wood\zebrawood.jpg">
+      <PackagePath>Assets\Wood\zebrawood.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.Windows\bin\x86\Release\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.Windows\bin\x86\Release\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.Windows\bin\x86\Release\FakeBlock.Windows.xr.xml">
+      <PackagePath>FakeBlock.Windows.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.Windows\bin\x86\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.12.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.12.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.12.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

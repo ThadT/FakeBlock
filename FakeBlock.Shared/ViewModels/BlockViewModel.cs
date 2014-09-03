@@ -10,18 +10,32 @@ namespace FakeBlock.ViewModels
 {
     class BlockViewModel : INotifyPropertyChanged
     {
+        public Windows.UI.Core.CoreDispatcher UIDispatcher;
         private WoodGrain selectedGrain;
         private Mallet selectedMallet;
+        private int currentAdIndex;
+        private Dictionary<int,string> adImages;
+        private System.Threading.Timer adTimer;
         private Windows.Storage.StorageFile soundFileBlock;
         private Windows.Storage.StorageFile soundFileMallet;
         private System.Collections.ObjectModel.ObservableCollection<WoodGrain> woods;
         private System.Collections.ObjectModel.ObservableCollection<Mallet> mallets;
-
         public BlockViewModel()
         {
             this.GetMallets();
             this.GetWood();
+            this.GetAds();
+            CurrentAdImage = this.adImages[this.currentAdIndex];
+            this.adTimer = new System.Threading.Timer(AdTimerTick, null, 10000, 12000 );
+        }
 
+        private void AdTimerTick(object state)
+        {
+            this.currentAdIndex ++;
+            if (this.currentAdIndex > 6) { this.currentAdIndex = 0; }
+
+            UIDispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () => CurrentAdImage = this.adImages[this.currentAdIndex] );
+          //  CurrentAdImage = this.adImages[this.currentAdIndex];
         }
 
         private void GetWood()
@@ -74,12 +88,35 @@ namespace FakeBlock.ViewModels
             Mallets = malletCollection;
         }
 
+        public void GetAds()
+        {
+            this.adImages = new Dictionary<int,string>();
+            this.adImages.Add(0,"/Assets/Ads/BarryZuckerkorn.png");
+            this.adImages.Add(1,"/Assets/Ads/Bluth_MrBananaGrabber.png");
+            this.adImages.Add(2,"/Assets/Ads/Cornballer.png");
+            this.adImages.Add(3,"/Assets/Ads/ManInsideMe.png");
+            this.adImages.Add(4,"/Assets/Ads/MilfordAcademy.png");
+            this.adImages.Add(5,"/Assets/Ads/NeverNude5k.png");
+            this.adImages.Add(6,"/Assets/Ads/SuddenValley.png");
+        }
+
         public System.Collections.ObjectModel.ObservableCollection<WoodGrain> Woods
         {
             get { return this.woods; }
             set 
             { 
                 this.woods = value;
+                NotifyPropertyChanged();
+            }
+        }
+
+        private string currentAdImage;
+        public string CurrentAdImage
+        {
+            get {  return this.currentAdImage;}
+            set 
+            { 
+                this.currentAdImage = value;
                 NotifyPropertyChanged();
             }
         }

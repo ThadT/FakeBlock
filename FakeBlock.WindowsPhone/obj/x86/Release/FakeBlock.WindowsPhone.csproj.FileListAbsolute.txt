@@ -47,11 +47,3 @@ C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\obj\x86\Release\qualifier
 C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\obj\x86\Release\MultipleQualifiersPerDimensionFound.txt
 C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\obj\x86\Release\ProjectArchitectures.txt
 C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\obj\x86\Release\FakeBlock.WindowsPhone.csprojResolveAssemblyReference.cache
-C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\obj\x86\Release\SharpDX\layout.resfiles
-C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\obj\x86\Release\SharpDX\layout.resfiles.intermediate
-C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\obj\x86\Release\SharpDX\Resources.resfiles
-C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\obj\x86\Release\SharpDX\Resources.resfiles.intermediate
-C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\obj\x86\Release\SharpDX\pri.resfiles
-C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\obj\x86\Release\SharpDX\pri.resfiles.intermediate
-C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\obj\x86\Release\SharpDX\priconfig.xml
-C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\obj\x86\Release\SharpDX\priconfig.xml.intermediate

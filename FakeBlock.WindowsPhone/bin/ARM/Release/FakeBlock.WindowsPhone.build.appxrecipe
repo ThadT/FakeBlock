@@ -31,6 +31,27 @@
     <AppxPackagedFile Include="C:\Development\GitHub\packages\SharpDX.2.6.0\build\..\Bin\DirectX11_2-Signed-wp81\SharpDX.XAudio2.dll">
       <PackagePath>SharpDX.XAudio2.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Ads\BarryZuckerkorn.png">
+      <PackagePath>Assets\Ads\BarryZuckerkorn.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Ads\Bluth_MrBananaGrabber.png">
+      <PackagePath>Assets\Ads\Bluth_MrBananaGrabber.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Ads\Cornballer.png">
+      <PackagePath>Assets\Ads\Cornballer.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Ads\ManInsideMe.png">
+      <PackagePath>Assets\Ads\ManInsideMe.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Ads\MilfordAcademy.png">
+      <PackagePath>Assets\Ads\MilfordAcademy.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Ads\NeverNude5K.png">
+      <PackagePath>Assets\Ads\NeverNude5K.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\Ads\SuddenValley.png">
+      <PackagePath>Assets\Ads\SuddenValley.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Development\GitHub\FakeBlock\FakeBlock.WindowsPhone\Assets\BadgeLogo.scale-240.png">
       <PackagePath>Assets\BadgeLogo.scale-240.png</PackagePath>
     </AppxPackagedFile>
