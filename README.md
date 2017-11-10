@@ -1,7 +1,5 @@
 # FakeBlock
 
-http://www.windowsphone.com/en-us/store/app/the-fakeblock/259d2d22-1a85-4e02-86fe-673488fbae4e
-
 Don't be fooled by imitations (I'm looking at you P-Hound), Fakeblock by George Maharis is THE genuine wood block simulator you've heard so much about. 
 Have you ever been in line at the grocery store or bank and wished you could pound out a few sweet knocks on a block of canary wood? Tired of carrying a man-purse just so you can have a full set of mallets for your impromptu tap sessions? Fakeblock by George Maharis gives you wood in your pocket, without the sharp corners.
 
